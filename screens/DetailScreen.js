@@ -55,16 +55,6 @@ export default class DetailsScreen extends Component {
                                 {`Gravity : ${details.gravity}`}
                             </Text>
                         </View>
-                        {/* <View style={[styles.cardItem, { flexDirection: "column" }]}>
-                            <Text>
-                                {details.specifications ? `Specifications : ` : ""}
-                            </Text>
-                            {details.specifications.map((item, index) => (
-                                <Text key={index.toString()} style={{ marginLeft: 50 }}>
-                                    {item}
-                                </Text>
-                            ))}
-                        </View> */}
                     </Card>
                 </View>
             );
